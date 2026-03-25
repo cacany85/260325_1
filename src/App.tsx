@@ -249,9 +249,14 @@ export default function App() {
               >
                 <Heart className={`w-6 h-6 ${isLiked ? "fill-red-500 text-red-500" : "text-gray-400"}`} />
               </button>
-              <button className="col-span-2 bg-gray-900 text-white font-bold py-4 rounded-xl hover:bg-black transition-all">
+              <a 
+                href="https://smartstore.naver.com/visionmaill/products/4589382709"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="col-span-2 bg-gray-900 text-white font-bold py-4 rounded-xl hover:bg-black transition-all flex items-center justify-center"
+              >
                 장바구니
-              </button>
+              </a>
               <button className="col-span-3 bg-[#03c75a] text-white font-bold py-4 rounded-xl hover:bg-[#02b350] transition-all shadow-lg shadow-[#03c75a]/20">
                 구매하기
               </button>
@@ -357,7 +362,14 @@ export default function App() {
         <button className="p-3 border border-gray-200 rounded-xl">
           <Heart className="w-6 h-6 text-gray-400" />
         </button>
-        <button className="flex-1 bg-gray-900 text-white font-bold py-3 rounded-xl">장바구니</button>
+        <a 
+          href="https://smartstore.naver.com/visionmaill/products/4589382709"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex-1 bg-gray-900 text-white font-bold py-3 rounded-xl flex items-center justify-center"
+        >
+          장바구니
+        </a>
         <button className="flex-1 bg-[#03c75a] text-white font-bold py-3 rounded-xl">구매하기</button>
       </div>
 
